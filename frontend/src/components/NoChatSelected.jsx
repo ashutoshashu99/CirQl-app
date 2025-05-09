@@ -9,7 +9,7 @@ const NoChatSelected = () => {
           <div className="relative">
             <div
               className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center
-             justify-center animate-bounce"
+             justify-center animate-pulse"
             >
               <MessageSquare className="w-8 h-8 text-primary " />
             </div>
@@ -17,7 +17,9 @@ const NoChatSelected = () => {
         </div>
 
         {/* Welcome Text */}
-        <h2 className="text-2xl font-bold">Welcome to Chatty!</h2>
+        <h2 className="text-2xl font-bold">Welcome to</h2>
+        <h2 className="text-8xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent tracking-wide">CirQl</h2>
+        {/* // bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 */}
         <p className="text-base-content/60">
           Select a conversation from the sidebar to start chatting
         </p>
